@@ -1,0 +1,117 @@
+
+body {
+    background-color: #b4dbc0;
+
+}
+
+/* EDIT NAV BAR */
+.navbar {
+    margin-bottom: 0;
+    background-color: white;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+}
+
+ul.nav li{
+    display: inline-block;
+    padding-right: 10px;
+}
+/* Add a powder blue to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+    color: #66B9BF !important; /*make the words powder blue*/
+}
+
+/* On hover, the links will turn tan */
+.navbar-nav li a:hover {
+    color: #EEAA7B !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: #66B9BF !important;
+}
+
+
+.logo img{width:10%}
+
+.carousel-inner img {
+
+    width: 80%; /* Set width to 100% */
+    margin: auto;
+}
+
+
+.carousel-caption h3 {
+    color: white !important; background-color: #01ABAA; border: solid #01ABAA ; opacity: 0.8; 
+    border-radius: 8px;
+}
+
+@media (max-width: 300px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+p1 {
+    color: white !important; background-color: #77C9D4; border: solid #77C9D4; opacity: 0.8;
+    font-size: 20px;font-weight: bold;
+}
+p {
+    color: #092834,font-family: verdana;
+    font-size: 20px;font-weight: bold;}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+Youtubevid {align-items: center;
+  }
+
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}

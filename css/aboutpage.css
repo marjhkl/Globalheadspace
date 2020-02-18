@@ -1,0 +1,81 @@
+body {
+    background-color: #b4dbc0;
+
+}
+/* EDIT NAV BAR */
+.navbar {
+    margin-bottom: 0;
+    background-color: white;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+    color: #66B9BF !important; /*make the words powder blue*/
+}
+
+/* On hover, the links will turn tan */
+.navbar-nav li a:hover {
+    color: #EEAA7B !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: #66B9BF !important;
+}
+
+.logo img{width:10%}
+
+h1 {
+    color: #347B98; font-family: Georgia, serif
+}
+p {
+    color: #092834
+}
+img {
+    border-radius: 8px;
+}
+.slide {
+
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
